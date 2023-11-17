@@ -1,0 +1,15 @@
+footer {
+    background-color: #2d2e32;
+    padding: 3rem 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.footerIcon a svg {
+    color: white;
+}

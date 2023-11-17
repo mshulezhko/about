@@ -1,4 +1,6 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@700&family=Poppins:wght@500;700&family=Roboto:wght@400;700&display=swap');
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +37,15 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+
+}
+
+*,
+html {
+  scroll-behavior: smooth !important;
 }

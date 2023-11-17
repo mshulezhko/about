@@ -1,0 +1,84 @@
+.contacts {
+    background-color: white;
+    margin-top: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.contactsIcon a,
+.contactsIcon p {
+    color: #767676;
+    cursor: pointer;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.contactInfo h3 {
+    color: #2d2e32;
+    font-size: 1.7rem;
+}
+
+.contactsTitle h3 {
+    color: rgb(0, 191, 255);
+    margin-bottom: 30px;
+}
+
+.contactsIconsBox {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contactsIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 50px;
+}
+
+.contactsIcon span svg {
+    color: rgb(0, 191, 255);
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .contactsIcon a,
+    .contactsIcon p {
+        font-size: 1rem;
+    }
+
+    .contactInfo h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 635px) {
+    .contactsIconsBox {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+
+    .contactsIcon a,
+    .contactsIcon p {
+        font-size: 14px;
+    }
+
+    .contactInfo h3 {
+        font-size: 13px;
+    }
+}
