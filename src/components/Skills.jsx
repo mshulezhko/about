@@ -12,6 +12,7 @@ Tech Stack</p>
     <div><img className="skill-logo"  src="https://skillicons.dev/icons?i=react" alt="skill-icon" /><p>React</p></div>
     <div><img className="skill-logo"  src="https://skillicons.dev/icons?i=php" alt="skill-icon" /><p>PHP</p></div>
     <div><img className="skill-logo"  src="https://skillicons.dev/icons?i=git" alt="skill-icon" /><p>Git</p></div>
+    <div><img className="skill-logo"  src="https://skillicons.dev/icons?i=github" alt="skill-icon" /><p>GitHub</p></div>
 </div>
     </div>
 }
