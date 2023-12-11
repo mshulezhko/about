@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import AboutMe from './components/AboutMe';
+import ChatBot from './components/ChatBot';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App" >
       <Header />
       <AboutMe />
+      <ChatBot />
       <Footer />
     </div>
   );
