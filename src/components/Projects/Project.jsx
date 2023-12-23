@@ -6,13 +6,17 @@ function Project(props) {
         description,
         git,
         liveDemo,
-        img
+        img,
+        resource,
+        resourceTask,
+        resourceLink
     } =props
     return <div className='projectWrap'>
         <div className='projectImgWrap'><img className='projectImg' src={img} alt="weather" /></div>
         <div className='projectDescription'>
             <div><h3>{title}</h3>
                 <p>{description}</p>
+              {resource &&  <p className='resource'> The project is based on a task from the <a rel="noreferrer"  target='_blank' href={resource}>Frontend Mentor</a> website. <a rel="noreferrer"  target='_blank' href={resourceLink}>{resourceTask}</a></p>}
             </div>
             <div className="links">
                 <a className='linkToCode' target="_blank" rel="noreferrer" href={git}>

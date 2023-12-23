@@ -170,9 +170,9 @@ const ChatBot = () => {
   return (
     <>
       <input type="checkbox" id="click" />
-      <label onClick={showMessages} for="click">
-        <i class="fab fa-facebook-messenger"></i>
-        <i class="fas fa-times"></i>
+      <label onClick={showMessages} htmlFor="click">
+        <i className="fab fa-facebook-messenger"></i>
+        <i className="fas fa-times"></i>
       </label>
 
       <div className="chatBot-container">

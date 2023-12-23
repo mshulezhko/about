@@ -24,6 +24,7 @@ p {
     color: #2d2e32;
     font-weight: bold;
     font-size: 16px;
+    text-wrap: nowrap;
 }
 
 .logo {
@@ -40,13 +41,6 @@ p {
 
 }
 
-.skill-logo {
-    transition: all 0.30s;
-}
-
-.skill-logo:hover {
-    background-color: rgb(219, 218, 218);
-}
 
 @media only screen and (max-width:1050px) {
     .skills {
@@ -55,13 +49,6 @@ p {
 }
 
 @media only screen and (max-width: 635px) {
-    .skill-logo {
-        width: 20px;
-    }
-}
-
-@media only screen and (max-width: 528px) {
-
     .skills .skillsTitle {
         display: none;
     }
@@ -71,5 +58,38 @@ p {
         gap: 10px;
         margin-top: 10px;
     }
-
 }
+
+@media only screen and (max-width: 333px) {
+    .skills .skillsTitle {
+        display: none;
+    }
+
+    .logo div {
+        margin: 5px;
+    }
+
+    .logo div p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .skill-logo {
+        width: 20px;
+    }
+
+    .skills {
+        /* width: 300px; */
+        justify-content: start;
+    }
+}
+
+/* @media only screen and (max-width: 570px) {
+
+    .skills .skillsTitle {
+        display: none;
+    }
+
+
+} */
