@@ -4,11 +4,20 @@ import WeatherImg from './../../images/weather.png'
 import NetworkImg from './../../images/network.png'
 import Countries from './../../images/countries.png'
 import Game from './../../images/game.png'
+import TicTac from './../../images/tictac.png'
 import './../../styles/projects.css'
 
 
 function Projects() {
     return <section id="projects">
+                     <Project
+            title='Tic Tac Toe'
+            description='In this project I used Next, React, TypeScript, Css, HTML'
+            git="https://github.com/mshulezhko/tic-tak-toe"
+            liveDemo="https://main--effervescent-marigold-7d17fb.netlify.app/"
+            img={TicTac}
+
+        />
                  <Project
             title='social network WITH COLOR THEME SWITCHER'
             description='In this project I used
