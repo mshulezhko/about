@@ -12,7 +12,7 @@ function Projects() {
     return <section id="projects">
                      <Project
             title='Tic Tac Toe'
-            description='In this project I used Next, React, TypeScript, Css, HTML'
+            description='In this project, I used Next, React, TypeScript, CSS, HTML'
             git="https://github.com/mshulezhko/tic-tak-toe"
             liveDemo="https://main--effervescent-marigold-7d17fb.netlify.app/"
             img={TicTac}
