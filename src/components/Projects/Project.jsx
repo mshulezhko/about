@@ -9,7 +9,7 @@ function Project(props) {
         resource,
         resourceTask,
         resourceLink
-    } =props
+    } = props
     return <div className='projectDescription'>
             <h3 className='projectDescriptionTitle'>{title}</h3>
                 <p className='description'>{description}</p>

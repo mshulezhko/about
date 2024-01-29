@@ -10,7 +10,6 @@
 .projectDescriptionTitle {
     color: #ededed;
     text-transform: uppercase;
-
 }
 
 .description {
@@ -24,7 +23,6 @@
     margin-top: 20px;
 
 }
-
 
 .projectDescription {
     display: flex;
@@ -116,5 +114,4 @@ a {
     .projectDescription {
         height: 180px;
     }
-
 }
