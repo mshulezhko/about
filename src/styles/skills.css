@@ -4,92 +4,32 @@ p {
 }
 
 .skills {
-
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-
-    align-items: center;
+    margin-top: 60px;
 }
 
-.skills p {
-    color: #2d2e32;
-    font-size: 12px;
-}
-
-.skills .skillsTitle {
-    border-right: 2px solid rgba(45, 46, 50, .5);
-    margin-right: 7rem;
-    padding-right: 2rem;
-    color: #2d2e32;
-    font-weight: bold;
-    font-size: 16px;
-    text-wrap: nowrap;
-}
-
-.logo {
+.skills-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    margin-top: 18px;
+    gap: 6px;
 }
 
-.logo div {
-    margin-right: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+.skills-wrapper span {
+    border: 1px rgb(0, 191, 255) solid;
+    color: rgb(0, 80, 107);
+    padding: 6px;
+    border-radius: 4px;
 }
 
+@media only screen and (max-width:1050px) {}
 
-@media only screen and (max-width:1050px) {
-    .skills {
-        margin-top: 30px;
+@media only screen and (max-width: 635px) {}
+
+@media only screen and (max-width: 333px) {}
+
+@media only screen and (max-width: 762px) {
+    .skills-wrapper {
+        flex-wrap: wrap;
     }
 }
-
-@media only screen and (max-width: 635px) {
-    .skills .skillsTitle {
-        display: none;
-    }
-
-    .skills {
-        flex-direction: column;
-        gap: 10px;
-        margin-top: 10px;
-    }
-}
-
-@media only screen and (max-width: 333px) {
-    .skills .skillsTitle {
-        display: none;
-    }
-
-    .logo div {
-        margin: 5px;
-    }
-
-    .logo div p {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 740px) {
-    .skill-logo {
-        width: 20px;
-    }
-
-    .skills {
-        /* width: 300px; */
-        justify-content: start;
-    }
-}
-
-/* @media only screen and (max-width: 570px) {
-
-    .skills .skillsTitle {
-        display: none;
-    }
-
-
-} */

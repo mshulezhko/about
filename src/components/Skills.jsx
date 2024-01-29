@@ -2,19 +2,8 @@ import React from "react";
 import './../styles/skills.css'
 
 function Skills() {
-    return <div className="skills">
-<div className="logo">
-    <div><img className="skill-logo" src="https://skillicons.dev/icons?i=html" alt="skill-icon" /><p>HTML</p></div>
-    <div><img className="skill-logo"  src="https://skillicons.dev/icons?i=css" alt="skill-icon" /><p>CSS</p></div>
-    <div> <img className="skill-logo"  src="https://skillicons.dev/icons?i=js" alt="skill-icon" /><p>JavaScript</p></div>
-        <div> <img className="skill-logo"  src="https://skillicons.dev/icons?i=typescript" alt="skill-icon" /><p>TypeScript</p></div>
-
-    <div><img className="skill-logo"  src="https://skillicons.dev/icons?i=react" alt="skill-icon" /><p>React</p></div>
-    <div><img className="skill-logo"  src="https://skillicons.dev/icons?i=php" alt="skill-icon" /><p>PHP</p></div>
-    <div><img className="skill-logo"  src="https://skillicons.dev/icons?i=git" alt="skill-icon" /><p>Git</p></div>
-    <div><img className="skill-logo"  src="https://skillicons.dev/icons?i=github" alt="skill-icon" /><p>GitHub</p></div>
-</div>
-    </div>
+    return <div className="skills"><h2 className="skills-heading">Skillset</h2><div className="skills-wrapper"><span>React</span><span>Next.js</span><span>JavaScript</span><span>TypeScript</span><span>HTML</span><span>CSS</span><span>PHP</span>
+    <span>Git</span><span>Jira</span><span>GitLab</span><span>Postman</span></div></div>
 }
 
 export default Skills;

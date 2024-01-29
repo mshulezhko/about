@@ -23,41 +23,36 @@
     margin-bottom: 10px;
 }
 
-.container {
+/* .container {
     margin: 0 auto;
     max-width: 70rem;
     padding: 0 4rem;
-    /* height: 50rem; */
     position: relative;
-}
+} */
+
+
 
 .aboutMeContent {
     display: flex;
     flex-direction: row;
     gap: 10rem;
     justify-content: space-between;
+    padding: 0 4rem;
 }
 
 .mainImg {
     max-width: 300px;
+    margin-top: 20px;
 }
 
 .additionsAboutMe {
-    margin-top: 200px;
-    display: flex;
-    flex-direction: row;
-    gap: 10rem;
-    align-items: center;
+    margin-top: 60px;
     background-color: white;
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
 
 }
 
-.additionsAboutMeImg {
-    max-width: 400px;
-    border-radius: 20px;
-}
 
 .additionsAboutMe .additionsAboutMeText h2 {
     color: rgb(0, 191, 255);
@@ -78,38 +73,13 @@
     font-size: 1.1rem;
 }
 
-@media only screen and (max-width: 1117px) {
-    .additionsAboutMe {
-        gap: 20px;
-    }
+.content-container {
+    padding: 0 20px;
 }
 
-@media only screen and (max-width: 850px) {
-    .additionsAboutMe {
-        flex-direction: column;
-    }
 
-    .additionsAboutMeImg {
-        margin-bottom: 20px;
-    }
-
-}
-
-@media only screen and (max-width: 970px) {
-
-    .mainImg {
-        max-width: 250px;
-        object-fit: cover;
-    }
-}
 
 @media only screen and (max-width: 780px) {
-
-    .mainImg {
-        max-width: 250px;
-        object-fit: cover;
-    }
-
     .aboutMeContent {
         margin-bottom: 20px;
     }
@@ -142,10 +112,6 @@
 }
 
 @media only screen and (max-width: 435px) {
-    .additionsAboutMeImg {
-        max-width: 200px;
-    }
-
     .container {
         padding: 0;
     }

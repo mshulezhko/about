@@ -1,9 +1,7 @@
 import React from "react";
-import imgWeb from './../images/web.jpg'
 
 function AdditionsAboutMe(){
     return <section id="about" className="additionsAboutMe">
-<div><img className="additionsAboutMeImg" src={imgWeb} alt="" /></div>
 <div className="additionsAboutMeText">
     <h2>ABOUT ME</h2>
     <h3>Front-end React Developer based in Norway🇳🇴, Oslo. 📍</h3>
