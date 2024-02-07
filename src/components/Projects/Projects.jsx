@@ -1,8 +1,5 @@
 import React from "react";
 import Project from "./Project";
-import Countries from './../../images/countries.png'
-import Game from './../../images/game.png'
-import TicTac from './../../images/tictac.png'
 import './../../styles/projects.css'
 
 
@@ -11,12 +8,17 @@ function Projects() {
         <h2>Projects</h2>
         <div className="projectsContainer">
                      <Project
+            title='Task manager'
+            description='Next React TypeScript CSS HTML API ZUSTAND '
+            git="https://github.com/mshulezhko/taskManeger"
+            liveDemo="https://main--mellow-panda-eb0e41.netlify.app/"
+        />
+
+                     <Project
             title='Tic Tac Toe'
             description='Next React TypeScript CSS HTML'
             git="https://github.com/mshulezhko/tic-tak-toe"
             liveDemo="https://main--effervescent-marigold-7d17fb.netlify.app/"
-            img={TicTac}
-
         />
         
                  <Project
@@ -24,7 +26,6 @@ function Projects() {
             description="JavaScript CSS HTML React"
             git="https://github.com/mshulezhko/rock-paper-scissors"
             liveDemo="https://courageous-lollipop-acf937.netlify.app"
-            img={Game}
              resource='https://www.frontendmentor.io/'
             resourceLink='https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH'
 
@@ -35,7 +36,6 @@ function Projects() {
             description='React JavaScript CSS  HTML'
             git="https://github.com/mshulezhko/countriesApp"
             liveDemo="https://main--playful-moxie-ef17d1.netlify.app/"
-            img={Countries}
             resource='https://www.frontendmentor.io/'
             resourceName='Frontend Mentor'
             resourceTask='REST Countries API with color theme switcher'
